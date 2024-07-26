@@ -1,0 +1,12 @@
+
+nav div ul li a:hover {
+    color: rgb(182, 23, 23);
+}
+.sectionblue{
+    background-color: rgb(3, 112, 255);
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
