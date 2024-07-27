@@ -9,3 +9,8 @@ function navigateTo(view) {
     });
 });
 
+// script.js
+document.getElementById('openPdfButton').addEventListener('click', function() {
+  window.location.href = 'pdf/CV.pdf';
+});
+

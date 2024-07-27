@@ -70,7 +70,7 @@ h1.titulo {
     display: block;
     margin-top: 10px;
     font-size: 22px; /* Tamaño del texto del botón */
-    color: #007BFF; /* Color azul para el texto del botón */
+    color: #d4d8dd; /* Color azul para el texto del botón */
     text-shadow: none; /* Elimina la sombra del texto */
     padding: 0 10px; /* Añade padding al texto */
 }

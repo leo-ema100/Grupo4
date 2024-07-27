@@ -3,10 +3,44 @@ nav div ul li a:hover {
     color: rgb(182, 23, 23);
 }
 .sectionblue{
-    background-color: rgb(3, 112, 255);
+    background-color: rgb(218, 230, 245);
 }
 
 .logo {
     width: 250px;
     height: 250px;
 }
+p {
+    max-width: 620px;  /* Ancho máximo del párrafo */
+}
+.btn-download {
+    background-color: #6c757d; /* Gris */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.btn-download i {
+    font-size: 18px; /* Tamaño del ícono */
+}
+
+.btn-download:hover {
+    background-color: #5a6268; /* Gris oscuro en hover */
+}
+.section-background {
+    background-image: url('/img/fondoleo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto; /* Esto puede ajustarse según tus necesidades */
+    padding: 50px 0; /* Ajusta el padding según sea necesario */
+}
+
+

@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #edf3f8;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, #1100ffa4, #da1b1b);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    background-color: rgb(252, 241, 241);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+}
+
+section h2 {
+    color: #1100ffa4;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #1100ffa4, #da1b1b);
+    color: white;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #00080a;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Nuevos estilos */
+.profile-header {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    margin-right: 20px;
+}
+
+.profile-info {
+    text-align:  center;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1em;
+    }
+
+    header p {
+        font-size: 2em;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-pic {
+        margin: 0 0 20px 0;
+    }
+
+    .profile-info {
+        text-align: left;
+    }
+}
